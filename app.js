@@ -24,6 +24,34 @@
       .toLowerCase();
   }
 
+  // ---------- Sinônimos populares ----------
+  // Carrega window.__SYNONYMS__ (definido em synonyms.js) e normaliza as chaves
+  // uma única vez, pra permitir buscar por termos leigos (ex.: "dor de cabeça")
+  // e encontrar itens que só usam o termo clínico (ex.: "Cefaleia").
+  var SYNONYMS = (function () {
+    var raw = window.__SYNONYMS__ || {};
+    var out = {};
+    Object.keys(raw).forEach(function (key) {
+      var nk = normalize(key);
+      var vals = (raw[key] || []).map(normalize);
+      out[nk] = (out[nk] || []).concat(vals);
+    });
+    return out;
+  })();
+
+  // Dado um texto de busca já normalizado, retorna termos clínicos extras
+  // associados a qualquer sinônimo popular contido nesse texto.
+  function expandWithSynonyms(normalizedQuery) {
+    if (!normalizedQuery) return [];
+    var extra = [];
+    Object.keys(SYNONYMS).forEach(function (key) {
+      if (normalizedQuery.indexOf(key) !== -1) {
+        extra = extra.concat(SYNONYMS[key]);
+      }
+    });
+    return extra;
+  }
+
   function escapeHtml(str) {
     if (str === undefined || str === null) return "";
     return String(str)
@@ -73,12 +101,17 @@
     var items = getDataset(tabKey);
     var q = normalize(state.query.trim());
     var cat = state.category;
+    var synonymTerms = expandWithSynonyms(q);
 
     return items.filter(function (item) {
       if (cat && item.category !== cat) return false;
       if (!q) return true;
       if (!item.__search) item.__search = searchableText(item, tabKey);
-      return item.__search.indexOf(q) !== -1;
+      if (item.__search.indexOf(q) !== -1) return true;
+      for (var i = 0; i < synonymTerms.length; i++) {
+        if (item.__search.indexOf(synonymTerms[i]) !== -1) return true;
+      }
+      return false;
     });
   }
 
