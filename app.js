@@ -64,7 +64,7 @@
   function searchableText(item, tabKey) {
     var parts = [item.pinyin_name, item.western_name, item.indicacao, item.acoes];
     if (tabKey === "formulas") {
-      parts.push(item.sindromes, item.sintomas_sinais);
+      parts.push(item.sindromes, item.sintomas_sinais, item.correspondencias);
     } else if (tabKey === "ervas") {
       parts.push(item.caracteristicas, item.canais);
     } else if (tabKey === "topicas") {
@@ -199,11 +199,14 @@
 
   function ingredientsTable(ingredients) {
     if (!ingredients || !ingredients.length) return "";
+    var hasDosagem = ingredients.some(function (ing) { return ing.dosagem; });
+    var qtyHeader = hasDosagem ? "Dosagem" : "%";
     var rows = ingredients.map(function (ing) {
+      var qty = ing.percentual ? escapeHtml(ing.percentual) + "%" : escapeHtml(ing.dosagem || "");
       return "<tr><td>" + escapeHtml(ing.nome_chines) + "</td><td>" + escapeHtml(ing.nome_cientifico) +
-        '</td><td class="pct">' + escapeHtml(ing.percentual) + "%</td></tr>";
+        '</td><td class="pct">' + qty + "</td></tr>";
     }).join("");
-    return '<table class="ingredients"><thead><tr><th>Nome chinês</th><th>Nome científico</th><th>%</th></tr></thead><tbody>' +
+    return '<table class="ingredients"><thead><tr><th>Nome chinês</th><th>Nome científico</th><th>' + qtyHeader + '</th></tr></thead><tbody>' +
       rows + "</tbody></table>";
   }
 
@@ -220,13 +223,16 @@
     }
 
     var tabKey = state.tab;
+    var nameLine = escapeHtml(item.pinyin_name) +
+      (item.caracteres_chineses ? ' <span class="detail__hanzi">' + escapeHtml(item.caracteres_chineses) + "</span>" : "");
     var header = '<div class="detail__header">' +
-      '<div><h3 class="detail__name">' + escapeHtml(item.pinyin_name) + "</h3>" +
+      '<div><h3 class="detail__name">' + nameLine + "</h3>" +
       (item.western_name ? '<div class="detail__western">' + escapeHtml(item.western_name) + "</div>" : "") +
       "</div>" +
       '<span class="detail__id-badge">' + escapeHtml(item.id) + "</span>" +
       "</div>" +
-      (item.category ? '<span class="detail__category">' + escapeHtml(item.category) + "</span>" : "");
+      (item.category ? '<span class="detail__category">' + escapeHtml(item.category) + "</span>" : "") +
+      (item.fonte ? '<span class="detail__fonte">Fonte: ' + escapeHtml(item.fonte) + "</span>" : "");
 
     var body = "";
     body += section("Indicação", item.indicacao);
@@ -242,6 +248,7 @@
           section("Pulso", item.pulso) +
           "</div>";
       }
+      body += section("Correspondências (Diagnóstico Ocidental)", item.correspondencias);
       if (item.ingredients && item.ingredients.length) {
         body += '<div class="detail__section"><h4>Composição</h4>' + ingredientsTable(item.ingredients) + "</div>";
       }

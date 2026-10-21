@@ -1,5 +1,6 @@
-# Livro-fonte (binário grande, não muda) - mantido na pasta mas fora do controle de versão
+# Livros-fonte (binários grandes, não mudam) - mantidos na pasta fora do controle de versão
 Formulas-Magistrais-Chinesas.pdf
+formulas magistrais chinesas dr lo der cheng.pdf
 
 # Texto bruto extraído do PDF (grande, regenerável a partir do PDF via parse2.py)
 full_text_pypdf.txt
