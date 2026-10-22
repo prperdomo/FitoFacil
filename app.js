@@ -75,11 +75,6 @@
         parts.push(ing.nome_chines, ing.nome_cientifico);
       });
     }
-    if (item.ingredients_lo_der_cheng && item.ingredients_lo_der_cheng.length) {
-      item.ingredients_lo_der_cheng.forEach(function (ing) {
-        parts.push(ing.nome_chines, ing.nome_cientifico);
-      });
-    }
     return normalize(parts.filter(Boolean).join(" | "));
   }
 
@@ -255,11 +250,7 @@
       }
       body += section("Correspondências (Diagnóstico Ocidental)", item.correspondencias);
       if (item.ingredients && item.ingredients.length) {
-        var compTitle = item.ingredients_lo_der_cheng && item.ingredients_lo_der_cheng.length ? "Composição (Bergamo)" : "Composição";
-        body += '<div class="detail__section"><h4>' + compTitle + '</h4>' + ingredientsTable(item.ingredients) + "</div>";
-      }
-      if (item.ingredients_lo_der_cheng && item.ingredients_lo_der_cheng.length) {
-        body += '<div class="detail__section"><h4>Composição (Lo Der Cheng)</h4>' + ingredientsTable(item.ingredients_lo_der_cheng) + "</div>";
+        body += '<div class="detail__section"><h4>Composição</h4>' + ingredientsTable(item.ingredients) + "</div>";
       }
     } else if (tabKey === "ervas") {
       body += section("Características", item.caracteristicas);
