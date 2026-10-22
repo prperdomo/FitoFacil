@@ -13,6 +13,7 @@
     tab: "formulas",
     query: "",
     category: "",
+    fonte: "",
     selectedId: null
   };
 
@@ -96,15 +97,31 @@
     return out;
   }
 
+  function distinctFontes(tabKey) {
+    var seen = {};
+    var out = [];
+    getDataset(tabKey).forEach(function (item) {
+      var f = (item.fonte || "").trim();
+      if (f && !seen[f]) {
+        seen[f] = true;
+        out.push(f);
+      }
+    });
+    out.sort(function (a, b) { return a.localeCompare(b, "pt-BR"); });
+    return out;
+  }
+
   function filteredItems() {
     var tabKey = state.tab;
     var items = getDataset(tabKey);
     var q = normalize(state.query.trim());
     var cat = state.category;
+    var fonte = state.fonte;
     var synonymTerms = expandWithSynonyms(q);
 
     return items.filter(function (item) {
       if (cat && item.category !== cat) return false;
+      if (fonte && item.fonte !== fonte) return false;
       if (!q) return true;
       if (!item.__search) item.__search = searchableText(item, tabKey);
       if (item.__search.indexOf(q) !== -1) return true;
@@ -126,6 +143,8 @@
     el.tabs = document.getElementById("tabs");
     el.searchInput = document.getElementById("searchInput");
     el.categorySelect = document.getElementById("categorySelect");
+    el.fonteField = document.getElementById("fonteField");
+    el.fonteSelect = document.getElementById("fonteSelect");
     el.clearBtn = document.getElementById("clearBtn");
     el.resultCount = document.getElementById("resultCount");
     el.results = document.getElementById("results");
@@ -135,6 +154,7 @@
   function render() {
     renderTabs();
     renderCategoryOptions();
+    renderFonteOptions();
     var items = filteredItems();
     renderResultCount(items.length);
     renderResults(items);
@@ -161,13 +181,31 @@
     el.categorySelect.innerHTML = opts.join("");
   }
 
+  function renderFonteOptions() {
+    var fontes = distinctFontes(state.tab);
+    if (!fontes.length) {
+      el.fonteField.hidden = true;
+      state.fonte = "";
+      return;
+    }
+    el.fonteField.hidden = false;
+    if (state.fonte && fontes.indexOf(state.fonte) === -1) {
+      state.fonte = "";
+    }
+    var opts = ['<option value="">Todas as fontes</option>'];
+    fontes.forEach(function (f) {
+      opts.push('<option value="' + escapeHtml(f) + '"' + (f === state.fonte ? " selected" : "") + ">" + escapeHtml(f) + "</option>");
+    });
+    el.fonteSelect.innerHTML = opts.join("");
+  }
+
   function renderResultCount(n) {
     el.resultCount.innerHTML = "<strong>" + n + "</strong> resultado" + (n === 1 ? "" : "s") + " encontrado" + (n === 1 ? "" : "s");
   }
 
   function renderResults(items) {
     if (!items.length) {
-      el.results.innerHTML = '<div class="empty-state">Nenhum resultado encontrado. Ajuste a busca ou o filtro de categoria.</div>';
+      el.results.innerHTML = '<div class="empty-state">Nenhum resultado encontrado. Ajuste a busca ou os filtros.</div>';
       return;
     }
     var html = items.map(function (item) {
@@ -282,6 +320,7 @@
       if (!btn) return;
       state.tab = btn.getAttribute("data-tab");
       state.category = "";
+      state.fonte = "";
       state.selectedId = null;
       render();
     });
@@ -296,9 +335,15 @@
       render();
     });
 
+    el.fonteSelect.addEventListener("change", function (e) {
+      state.fonte = e.target.value;
+      render();
+    });
+
     el.clearBtn.addEventListener("click", function () {
       state.query = "";
       state.category = "";
+      state.fonte = "";
       el.searchInput.value = "";
       render();
     });
