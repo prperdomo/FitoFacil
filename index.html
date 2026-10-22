@@ -20,20 +20,22 @@
   </header>
 
   <div class="controls">
-    <div class="field field--grow">
-      <label for="searchInput">Buscar</label>
-      <input type="search" id="searchInput" placeholder="Nome pinyin, indicação, sintomas, ervas...">
-      <small class="field__hint">Também entende termos populares: "dor de cabeça", "azia", "coceira", "gases", "corrimento"...</small>
+    <div class="controls__row">
+      <div class="field field--grow">
+        <label for="searchInput">Buscar</label>
+        <input type="search" id="searchInput" placeholder="Nome pinyin, indicação, sintomas, ervas...">
+      </div>
+      <div class="field">
+        <label for="categorySelect">Categoria</label>
+        <select id="categorySelect"></select>
+      </div>
+      <div class="field" id="fonteField">
+        <label for="fonteSelect">Fonte</label>
+        <select id="fonteSelect"></select>
+      </div>
+      <button class="btn" id="clearBtn" type="button">Limpar filtros</button>
     </div>
-    <div class="field">
-      <label for="categorySelect">Categoria</label>
-      <select id="categorySelect"></select>
-    </div>
-    <div class="field" id="fonteField">
-      <label for="fonteSelect">Fonte</label>
-      <select id="fonteSelect"></select>
-    </div>
-    <button class="btn" id="clearBtn" type="button">Limpar filtros</button>
+    <small class="field__hint">Também entende termos populares: "dor de cabeça", "azia", "coceira", "gases", "corrimento"...</small>
   </div>
 
   <div class="result-count" id="resultCount"></div>

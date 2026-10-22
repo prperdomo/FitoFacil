@@ -95,6 +95,9 @@ html, body {
   background: var(--panel);
   border-bottom: 1px solid var(--line);
   padding: 16px 24px;
+}
+
+.controls__row {
   display: flex;
   gap: 12px;
   align-items: flex-end;
@@ -118,6 +121,8 @@ html, body {
 .field--grow { flex: 1 1 320px; min-width: 220px; }
 
 .field__hint {
+  display: block;
+  margin-top: 8px;
   font-size: 0.76rem;
   color: var(--ink-faint);
   font-style: italic;
