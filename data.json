@@ -26031,6 +26031,1081 @@
       ],
       "notes": "Fonte: Fórmulas Magistrais Chinesas, Dr. Lo Der Cheng (ROCA). Observação da digitalização: Última fórmula do livro; não há conteúdo adicional após a página 591 além do Índice Remissivo, conforme esperado.",
       "fonte": "Lo Der Cheng"
+    },
+    {
+      "id": "461",
+      "pinyin_name": "YANG XUE XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Nutre o Sangue",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Huang Qi",
+          "nome_cientifico": "Radix Astralagi (grafia da página; nome botânico correto é Astragali)",
+          "percentual": "80"
+        },
+        {
+          "nome_chines": "Dang Gui",
+          "nome_cientifico": "Radix Angelicae Sinensis",
+          "percentual": "20"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-yang-xue-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "462",
+      "pinyin_name": "KAN LI JI HE KE LI",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Harmoniza (nome sugere combinação/reconciliação entre padrões; composição inclui o par clássico Huang Lian + Rou Gui, usado para harmonizar Fogo e Água / Coração e Rim)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Huang Lian",
+          "nome_cientifico": "Rhizoma Coptidis",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Sheng Di Huang",
+          "nome_cientifico": "Radix Rehmanniae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Gui Zhi",
+          "nome_cientifico": "Ramulus Cinnamomi",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Rou Gui",
+          "nome_cientifico": "Cortex Cinnamomi",
+          "percentual": ""
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-ji-he-ke-li/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Proporções/dosagens dos ingredientes não informadas na página. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "463",
+      "pinyin_name": "TONG CHANG XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Purga o Intestino (laxante; composição com Da Huang e Mang Xiao, par purgativo clássico)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Da Huang",
+          "nome_cientifico": "Radix et Rhizoma Rhei",
+          "percentual": "60"
+        },
+        {
+          "nome_chines": "Mang Xiao",
+          "nome_cientifico": "Natrii Sulfas / Mirabilitum",
+          "percentual": "40"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-tong-chang-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "464",
+      "pinyin_name": "QU YU XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Remove a Estase de Sangue",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "E Zhu",
+          "nome_cientifico": "Rhizoma Curcumae Zedoaria",
+          "percentual": "40"
+        },
+        {
+          "nome_chines": "San Leng",
+          "nome_cientifico": "Rhizoma Sparganii",
+          "percentual": "30"
+        },
+        {
+          "nome_chines": "Hong Hua",
+          "nome_cientifico": "Flos Carthami",
+          "percentual": "15"
+        },
+        {
+          "nome_chines": "Yu Jin",
+          "nome_cientifico": "Radix Curcumae",
+          "percentual": "15"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-qu-yu-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "465",
+      "pinyin_name": "ZI YIN XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Nutre o Yin",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Sheng Di Huang",
+          "nome_cientifico": "Radix Rehmanniae",
+          "percentual": "50"
+        },
+        {
+          "nome_chines": "Han Lian Cao",
+          "nome_cientifico": "Herba Ecliptae",
+          "percentual": "25"
+        },
+        {
+          "nome_chines": "Nu Zhen Zi",
+          "nome_cientifico": "Fructus Ligustri Lucidi",
+          "percentual": "25"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-zi-yin-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "466",
+      "pinyin_name": "MING MU XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Clareia a Visão (uso oftálmico)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Ju Hua",
+          "nome_cientifico": "Flos Chrysanthemi Morifolii",
+          "percentual": "34"
+        },
+        {
+          "nome_chines": "Mi Meng Hua",
+          "nome_cientifico": "Flos Buddlejae",
+          "percentual": "33"
+        },
+        {
+          "nome_chines": "Gou Qi Zi",
+          "nome_cientifico": "Fructus Lycii",
+          "percentual": "33"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-ming-mu-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "467",
+      "pinyin_name": "YANG XIN XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Nutre o Coração e Acalma o Shen",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Ye Jiao Teng",
+          "nome_cientifico": "Caulis polygoni multiflori (grafado na página como \"Caulis polygoni multif.\")",
+          "percentual": "40"
+        },
+        {
+          "nome_chines": "Bai Zi Ren",
+          "nome_cientifico": "Semen Platycladi",
+          "percentual": "30"
+        },
+        {
+          "nome_chines": "He Huan Pi",
+          "nome_cientifico": "Cortex Albiziae",
+          "percentual": "30"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-yang-xin-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "468",
+      "pinyin_name": "RE SHI XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Elimina Calor-Umidade (composição Huang Bai + Cang Zhu, fórmula do tipo Er Miao San)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Huang Bai",
+          "nome_cientifico": "Cortex Phellodendri",
+          "percentual": "60"
+        },
+        {
+          "nome_chines": "Cang Zhu",
+          "nome_cientifico": "Rhizoma Atractylodis",
+          "percentual": "40"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-re-shi-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: O cabeçalho/breadcrumb da página exibia erroneamente o texto \"Fitoterápico em grânulos Kan Li - Qu Yu Xiao Fang\", que não corresponde ao nome do produto (Re Shi Xiao Fang); título e composição da página conferem com Re Shi Xiao Fang. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "469",
+      "pinyin_name": "TONG BI XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Trata Síndrome Bi (dor articular por Vento-Umidade)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Chuan Xiong",
+          "nome_cientifico": "Rhizoma Ligusti",
+          "percentual": "35"
+        },
+        {
+          "nome_chines": "Wei Ling Xian",
+          "nome_cientifico": "Radix Clematidis",
+          "percentual": "25"
+        },
+        {
+          "nome_chines": "Qiang Huo",
+          "nome_cientifico": "Radix Notopterygii",
+          "percentual": "20"
+        },
+        {
+          "nome_chines": "Du Huo",
+          "nome_cientifico": "Radix Angelicae Pubescentis",
+          "percentual": "20"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-tong-bi-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Caracteres chineses não constam na página (nem da fórmula nem dos ingredientes). Página não traz indicação terapêutica específica, apenas aviso genérico. Extrato granulado 5:1, embalagem 100g, colher dosadora 2g (não é dosagem/proporção dos ingredientes, é apresentação do produto). O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "470",
+      "pinyin_name": "LI SHI XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Resolve/Drena Umidade (diurético; Fu Ling, Bai Zhu, Ze Xie)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Fu Ling",
+          "nome_cientifico": "Poria (nome científico completo não informado na página)",
+          "percentual": "35"
+        },
+        {
+          "nome_chines": "Bai Zhu",
+          "nome_cientifico": "Rhizoma Atractylodis Macrocephalae",
+          "percentual": "35"
+        },
+        {
+          "nome_chines": "Ze Xie",
+          "nome_cientifico": "Rhizoma Alismatis",
+          "percentual": "30"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-li-shi-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Caracteres chineses não constam na página. Apresentação: colher dosadora de 2g e 100g de extrato granulado (5:1). O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "471",
+      "pinyin_name": "FU YANG XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Restaura e Tonifica o Yang",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Fu Zi",
+          "nome_cientifico": "Radix Aconiti Lateralis",
+          "percentual": "50"
+        },
+        {
+          "nome_chines": "Gan Jiang",
+          "nome_cientifico": "Rhizoma Zingiberis",
+          "percentual": "20"
+        },
+        {
+          "nome_chines": "Gui Zhi",
+          "nome_cientifico": "Ramulus Cinnamomi",
+          "percentual": "20"
+        },
+        {
+          "nome_chines": "Rou Gui",
+          "nome_cientifico": "Cortex Cinnamomi",
+          "percentual": "10"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-fu-yang-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Caracteres chineses não constam na página. Apresentação: Extrato Granulado 5:1, 100g, colher dosadora de 2g. SKU 62HNMC4M917153. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "472",
+      "pinyin_name": "HUO XUE XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Ativa a Circulação do Sangue (Dang Gui + Chuan Xiong)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Dang Gui",
+          "nome_cientifico": "Radix Angelicae Sinensis",
+          "percentual": "60"
+        },
+        {
+          "nome_chines": "Chuan Xiong",
+          "nome_cientifico": "Rhizoma Ligusti",
+          "percentual": "40"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-huo-xue-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Caracteres chineses não constam na página. Apresentação: 100g de extrato granulado (5:1), colher dosadora de 2g. Não há dosagem recomendada por uso. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "473",
+      "pinyin_name": "YING WEI XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Harmoniza Ying e Wei (semelhante a Gui Zhi Tang)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Gui Zhi",
+          "nome_cientifico": "Ramulus Cinnamomi",
+          "percentual": "40"
+        },
+        {
+          "nome_chines": "Bai Shao",
+          "nome_cientifico": "Radix Paeoniae Alba",
+          "percentual": "30"
+        },
+        {
+          "nome_chines": "Chi Shao",
+          "nome_cientifico": "Radix Paeoniae Rubrae",
+          "percentual": "30"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-ying-wei-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Caracteres chineses dos ingredientes e da fórmula não são fornecidos. Apresentação: 100g de Extrato Granulado 5:1, colher dosadora de 2g. Não há posologia de uso informada. SKU MF54Z144517194, preço R$120,00. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "474",
+      "pinyin_name": "XIAO DAO XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Resolve Estagnação Alimentar (digestivo)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Zhi Ke",
+          "nome_cientifico": "Fructus Aurantii",
+          "percentual": "25"
+        },
+        {
+          "nome_chines": "Shan Zha",
+          "nome_cientifico": "Fructus Crataegi",
+          "percentual": "25"
+        },
+        {
+          "nome_chines": "Mai Ya",
+          "nome_cientifico": "Fructus Hordei Germinatus",
+          "percentual": "25"
+        },
+        {
+          "nome_chines": "Gu Ya",
+          "nome_cientifico": "Orizae Germinatus (grafia como consta na página; possível variante de Oryzae)",
+          "percentual": "25"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-xiao-dao-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Caracteres chineses não informados na página. Apresentação: 100g de Extrato Granulado 5:1. SKU 8AOKVICZK17188, preço R$120,00. Nome científico do último ingrediente reproduzido exatamente como consta na página (grafia pode ser variante). O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "475",
+      "pinyin_name": "QING RE XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Elimina Calor / Purifica Fogo",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Huang Qin",
+          "nome_cientifico": "Radix Scutellariae",
+          "percentual": "50"
+        },
+        {
+          "nome_chines": "Da Huang",
+          "nome_cientifico": "Radix et Rhizoma Rhei",
+          "percentual": "35"
+        },
+        {
+          "nome_chines": "Huang Lian",
+          "nome_cientifico": "Rhizoma Coptidis",
+          "percentual": "15"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-qing-re-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Caracteres chineses da fórmula e dos ingredientes não aparecem na página. Apresentação: 100g de extrato granulado (proporção 5:1), colher dosadora de 2g. SKU 56OL5GDTZ17162, preço R$120,00. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "476",
+      "pinyin_name": "JIE BIAO XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Libera a Superfície (par clássico Jing Jie + Fang Feng)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Jing Jie",
+          "nome_cientifico": "Herba Schizonepetae",
+          "percentual": "50"
+        },
+        {
+          "nome_chines": "Fang Feng",
+          "nome_cientifico": "Radix Saposhnikoviae",
+          "percentual": "50"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-jie-biao-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Caracteres chineses não informados na página. Apresentação: 100g de extrato granulado (5:1), colher dosadora de 2g. Não há dosagem recomendada de uso. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "477",
+      "pinyin_name": "LI QI XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Regula o Qi (estagnação de Qi, fórmula do tipo Si Ni San)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Chai Hu",
+          "nome_cientifico": "Radix Bupleuri",
+          "percentual": "35"
+        },
+        {
+          "nome_chines": "Zhi Ke",
+          "nome_cientifico": "Fructus Aurantii",
+          "percentual": "25"
+        },
+        {
+          "nome_chines": "Chen Pi",
+          "nome_cientifico": "Pericarpium Citri Reticulatae",
+          "percentual": "25"
+        },
+        {
+          "nome_chines": "Zhi Shi",
+          "nome_cientifico": "Fructus Aurantii Immaturus",
+          "percentual": "15"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-li-qi-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Página não traz indicação terapêutica específica nem caracteres chineses. Extrato granulado 5:1, 100g, colher dosadora de 2g; sem posologia diária informada. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "478",
+      "pinyin_name": "HUA TAN XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Transforma Mucosidade (fórmula do tipo San Zi Yang Qin Tang)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Zi Su Zi",
+          "nome_cientifico": "Fructus Perillae",
+          "percentual": "37,5"
+        },
+        {
+          "nome_chines": "Ai Fu Zi",
+          "nome_cientifico": "Semen Raphani",
+          "percentual": "37,5"
+        },
+        {
+          "nome_chines": "Bai Jie Zi",
+          "nome_cientifico": "Semen Sinapis",
+          "percentual": "25"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-hua-tan-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Página não traz indicação terapêutica nem caracteres chineses. Extrato granulado 5:1, 100g, colher dosadora de 2g; sem posologia informada. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "479",
+      "pinyin_name": "BU QI XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Tonifica o Qi (Huang Qi + Dang Shen)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Huang Qi",
+          "nome_cientifico": "Radix Astralagi",
+          "percentual": "60"
+        },
+        {
+          "nome_chines": "Dang Shen",
+          "nome_cientifico": "Radix Codonopsis",
+          "percentual": "40"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-bu-qi-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Página não traz indicação terapêutica nem caracteres chineses. Extrato granulado 5:1, 100g, colher dosadora de 2g; sem posologia informada. Nota: 'Radix Astralagi' é a grafia usada na página (grafia científica usual: Astragali). O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "480",
+      "pinyin_name": "PEI TU XIAO FANG",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Fortalece o Baço (Terra) e Harmoniza o Centro",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Da Zao",
+          "nome_cientifico": "Fructus Jujubae",
+          "percentual": "40"
+        },
+        {
+          "nome_chines": "Gan Cao",
+          "nome_cientifico": "Radix Glycyrrhizae",
+          "percentual": "20"
+        },
+        {
+          "nome_chines": "Shen Jiang",
+          "nome_cientifico": "Rhizoma Zingiberis Recens",
+          "percentual": "40"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-kan-li-pei-tu-xiao-fang/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Página não traz indicação terapêutica nem caracteres chineses. Extrato granulado 5:1, 100g, colher dosadora de 2g; sem posologia informada. Produto esgotado no momento da captura. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "481",
+      "pinyin_name": "SHEN QI WAN",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Tonifica o Yang do Rim (fórmula clássica Jin Gui Shen Qi Wan)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Gui Zhi",
+          "nome_cientifico": "Ramulus Cinnamomi",
+          "percentual": "4"
+        },
+        {
+          "nome_chines": "Zhi Fu Zi",
+          "nome_cientifico": "Radix Aconiti Lateralis Praeparata",
+          "percentual": "3"
+        },
+        {
+          "nome_chines": "Fu Ling",
+          "nome_cientifico": "Poria",
+          "percentual": "11"
+        },
+        {
+          "nome_chines": "Ze Xie",
+          "nome_cientifico": "Rhizoma Alismatis",
+          "percentual": "11"
+        },
+        {
+          "nome_chines": "Mu Dan Pi",
+          "nome_cientifico": "Cortex Moutan",
+          "percentual": "11"
+        },
+        {
+          "nome_chines": "Shu Di Huang",
+          "nome_cientifico": "Radix Rehmanniae Preparata",
+          "percentual": "30"
+        },
+        {
+          "nome_chines": "Shan Zhu Yu",
+          "nome_cientifico": "Fructus Corni",
+          "percentual": "15"
+        },
+        {
+          "nome_chines": "Shan Yao",
+          "nome_cientifico": "Rhizoma Diosscoreae",
+          "percentual": "15"
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/cha-em-granulos-kan-li-shen-qi-wan/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Página não traz indicação terapêutica nem caracteres chineses. Grafias da página copiadas como estão ('Diosscoreae', 'zhì fü zi', 'shan zhü yú'), que diferem das grafias científicas/pinyin usuais (Dioscoreae; zhì fù zǐ; shān zhū yú). Extrato granulado 5:1, 100g, colher dosadora de 2g. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "482",
+      "pinyin_name": "AN SHEN KE LI",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Acalma o Shen; harmoniza Shao Yang (composição tipo Chai Hu Jia Long Gu Mu Li Tang modificada)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Chai Hu",
+          "nome_cientifico": "Radix Bupleuri",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Huang Qin",
+          "nome_cientifico": "Radix Scutellariae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Gui Zhi",
+          "nome_cientifico": "Ramulus Cinnamomi",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Chen Pi",
+          "nome_cientifico": "Pericarpium Citri Reticulatae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Bai Shao",
+          "nome_cientifico": "Radix Paeoniae Alba",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Fu Ling",
+          "nome_cientifico": "Poria",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Zhi Ke",
+          "nome_cientifico": "Fructus Aurantii",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Zhu Ru",
+          "nome_cientifico": "Caulis Bambusae in Taenia",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Ban Xia",
+          "nome_cientifico": "Rhizoma Pinelliae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Yuan Zhi",
+          "nome_cientifico": "Radix Polygalae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Shi Chang Pu",
+          "nome_cientifico": "Rhizoma Acori",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Dang Shen",
+          "nome_cientifico": "Radix Codonopsis",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Gan Cao",
+          "nome_cientifico": "Radix Glycyrrhizae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Long Gu",
+          "nome_cientifico": "Os Draconis",
+          "percentual": ""
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/cha-em-granulos-kan-li-an-shen-ke-li/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Página não informa proporção/dosagem de nenhum ingrediente, nem indicação terapêutica, nem caracteres chineses. Produto esgotado. Extrato granulado 5:1, 100g, colher dosadora de 2g. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "483",
+      "pinyin_name": "SHOU SHEN KE LI",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Fórmula para emagrecimento (drena Umidade, elimina estagnação alimentar, promove trânsito intestinal)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "He Ye",
+          "nome_cientifico": "Folium Nelumbinis",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Jue Ming Zi",
+          "nome_cientifico": "Semen Cassiae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Shan Zha",
+          "nome_cientifico": "Fructus Crataegi",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Ze Xie",
+          "nome_cientifico": "Rhizoma Alismatis",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Fan Zie Ye",
+          "nome_cientifico": "Folium Sennae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Yi Yi Ren",
+          "nome_cientifico": "Semen Coicis",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Su Ye",
+          "nome_cientifico": "Folium Perillae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Huang Qi",
+          "nome_cientifico": "Radix Astralagi",
+          "percentual": ""
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-shou-shen-ke-li/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Página não informa proporção/dosagem de nenhum ingrediente, nem indicação terapêutica, nem caracteres chineses. Produto esgotado. Extrato granulado 5:1, 100g, colher dosadora de 2g. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "484",
+      "pinyin_name": "NAN XING BU YU KE LI",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Fertilidade masculina (tonifica Rim e Jing)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Chai Hu",
+          "nome_cientifico": "Radix Bupleuri",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Huang Qin",
+          "nome_cientifico": "Radix Scutellariae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Chen Pi",
+          "nome_cientifico": "Pericarpium Citri Reticulatae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Fu Ling",
+          "nome_cientifico": "Poria",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Dang Shen",
+          "nome_cientifico": "Radix Codonopsis",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Yuan Zhi",
+          "nome_cientifico": "Radix Polygalae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Shi Chang Pu",
+          "nome_cientifico": "Rhizoma Acori",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Gan Cao",
+          "nome_cientifico": "Radix Glycyrrhizae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Ba Ji Tian",
+          "nome_cientifico": "Radix Morindae Officinalis",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Nu Zhen Zi",
+          "nome_cientifico": "Fructus Ligustri Lucidi",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Gou Qi Zi",
+          "nome_cientifico": "Fructus Lycii",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Tu Si Zi",
+          "nome_cientifico": "Semen Cuscutae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Jiu Cai Zi",
+          "nome_cientifico": "Semen Allii Tuberosi",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Wu Wei Zi",
+          "nome_cientifico": "Fructus Schisandrae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Shan Zhu Yu",
+          "nome_cientifico": "Fructus Corni",
+          "percentual": ""
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-nan-xing-bu-yu-ke-li/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Página não informa proporção/dosagem de nenhum ingrediente, nem indicação terapêutica, nem caracteres chineses. Produto esgotado, sem preço exibido. Extrato granulado 5:1, 100g, colher dosadora de 2g. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
+    },
+    {
+      "id": "485",
+      "pinyin_name": "NU XING BU YUN KE LI",
+      "caracteres_chineses": "",
+      "western_name": "",
+      "category": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "indicacao": "",
+      "acoes": "Fertilidade feminina (tonifica Rim, regula Sangue)",
+      "sindromes": "",
+      "sintomas_sinais": "",
+      "lingua": "",
+      "saburra": "",
+      "pulso": "",
+      "correspondencias": "",
+      "ingredients": [
+        {
+          "nome_chines": "Chai Hu",
+          "nome_cientifico": "Radix Bupleuri",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Huang Qin",
+          "nome_cientifico": "Radix Scutellariae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Chen Pi",
+          "nome_cientifico": "Pericarpium Citri Reticulatae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Fu Ling",
+          "nome_cientifico": "Poria",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Dang Shen",
+          "nome_cientifico": "Radix Codonopsis",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Yuan Zhi",
+          "nome_cientifico": "Radix Polygalae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Shi Chang Pu",
+          "nome_cientifico": "Rhizoma Acori",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Gan Cao",
+          "nome_cientifico": "Radix Glycyrrhizae",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Ba Ji Tian",
+          "nome_cientifico": "Radix Morindae Officinalis",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Nu Zhen Zi",
+          "nome_cientifico": "Fructus Ligustri Lucidi",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Gou Qi Zi",
+          "nome_cientifico": "Fructus Lycii",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Gui Zhi",
+          "nome_cientifico": "Ramulus Cinnamomi",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Bai Shao",
+          "nome_cientifico": "Radix Paeoniae Alba",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Dang Gui",
+          "nome_cientifico": "Radix Angelicae Sinensis",
+          "percentual": ""
+        },
+        {
+          "nome_chines": "Shu Di Huang",
+          "nome_cientifico": "Radix Rehmanniae Prep.",
+          "percentual": ""
+        }
+      ],
+      "notes": "Fonte: página de produto da loja Mais Oriental (maisoriental.com.br), marca Kan Li — https://www.maisoriental.com.br/produto/fitoterapico-em-granulos-nu-xing-bu-yun-ke-li/. A página não informa indicação terapêutica clínica específica, síndrome/padrão TCM, língua/pulso, nem caracteres chineses — esses campos foram deixados em branco, sem inventar conteúdo. Observação da coleta: Página não informa proporção/dosagem de nenhum ingrediente, nem indicação terapêutica, nem caracteres chineses. Produto esgotado. Extrato granulado 5:1, 100g, colher dosadora de 2g. O campo \"Ações\" abaixo é uma função sugerida pelo significado literal do nome da fórmula e pelos ingredientes listados na própria página (inferência transparente, não extraída de texto clínico da fonte).",
+      "fonte": "Mais Oriental (produto comercial Kan Li)"
     }
   ],
   "ervas": [
@@ -28677,6 +29752,38 @@
       "subcategoria": "Ativa Circulação de Qi e Sangue",
       "codigos": [
         "460"
+      ]
+    },
+    {
+      "tipo": "formula",
+      "categoria": "FITOTERÁPICOS COMERCIAIS KAN LI (MAIS ORIENTAL)",
+      "subcategoria": "Grânulos solúveis Kan Li",
+      "codigos": [
+        "461",
+        "462",
+        "463",
+        "464",
+        "465",
+        "466",
+        "467",
+        "468",
+        "469",
+        "470",
+        "471",
+        "472",
+        "473",
+        "474",
+        "475",
+        "476",
+        "477",
+        "478",
+        "479",
+        "480",
+        "481",
+        "482",
+        "483",
+        "484",
+        "485"
       ]
     }
   ]
