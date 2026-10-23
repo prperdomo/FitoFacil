@@ -129,6 +129,8 @@
         if (item.__search.indexOf(synonymTerms[i]) !== -1) return true;
       }
       return false;
+    }).sort(function (a, b) {
+      return (a.pinyin_name || "").localeCompare(b.pinyin_name || "", "pt-BR");
     });
   }
 
