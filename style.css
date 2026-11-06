@@ -333,6 +333,17 @@ select:focus {
   border-radius: 999px;
 }
 
+.detail__alerta {
+  margin-top: 14px;
+  padding: 9px 12px;
+  background: #fdecea;
+  border: 1px solid #e0938a;
+  border-radius: 4px;
+  color: #a4201a;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
 .detail__id-badge {
   font-size: 0.72rem;
   color: var(--ink-faint);

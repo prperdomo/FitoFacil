@@ -275,6 +275,9 @@
       (item.fonte ? '<span class="detail__fonte">Fonte: ' + escapeHtml(item.fonte) + "</span>" : "");
 
     var body = "";
+    if (item.alerta_cuidado) {
+      body += '<div class="detail__alerta">⚠ ' + escapeHtml(item.alerta_cuidado) + "</div>";
+    }
     body += section("Indicação", item.indicacao);
     body += section("Ações", item.acoes);
 
