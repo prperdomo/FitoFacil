@@ -239,14 +239,12 @@
 
   function ingredientsTable(ingredients) {
     if (!ingredients || !ingredients.length) return "";
-    var hasDosagem = ingredients.some(function (ing) { return ing.dosagem; });
-    var qtyHeader = hasDosagem ? "Dosagem" : "%";
     var rows = ingredients.map(function (ing) {
-      var qty = ing.percentual ? escapeHtml(ing.percentual) + "%" : escapeHtml(ing.dosagem || "");
+      var qty = ing.percentual ? escapeHtml(ing.percentual) + "%" : "";
       return "<tr><td>" + escapeHtml(ing.nome_chines) + "</td><td>" + escapeHtml(ing.nome_cientifico) +
         '</td><td class="pct">' + qty + "</td></tr>";
     }).join("");
-    return '<table class="ingredients"><thead><tr><th>Nome chinês</th><th>Nome científico</th><th>' + qtyHeader + '</th></tr></thead><tbody>' +
+    return '<table class="ingredients"><thead><tr><th>Nome chinês</th><th>Nome científico</th><th>%</th></tr></thead><tbody>' +
       rows + "</tbody></table>";
   }
 
