@@ -311,9 +311,7 @@ select:focus {
 }
 
 .result-card__id {
-  font-size: 0.72rem;
-  color: var(--ink-faint);
-  font-variant-numeric: tabular-nums;
+  display: none;
 }
 
 .result-card__western {
@@ -426,12 +424,7 @@ select:focus {
 }
 
 .detail__id-badge {
-  font-size: 0.72rem;
-  color: var(--ink-faint);
-  background: var(--chip-bg);
-  padding: 3px 9px;
-  border-radius: 999px;
-  white-space: nowrap;
+  display: none;
 }
 
 .detail__category {
