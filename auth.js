@@ -4,6 +4,7 @@
  * link/arquivo por acaso e veja o conteúdo sem querer.
  *
  * Para trocar o usuário/senha, edite as constantes USER e PASS abaixo.
+ * Para trocar o tempo de inatividade, edite INACTIVITY_MS.
  */
 (function () {
   "use strict";
@@ -11,6 +12,7 @@
   var USER = "fito";
   var PASS = "@fito#2026";
   var STORAGE_KEY = "fitofacil_authed";
+  var INACTIVITY_MS = 60000;
 
   function show(el) { el.hidden = false; }
   function hide(el) { el.hidden = true; }
@@ -23,9 +25,48 @@
     var passInput = document.getElementById("loginPass");
     var errorEl = document.getElementById("loginError");
 
+    var inactivityTimer = null;
+
+    function clearAuth() {
+      try { window.localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+    }
+
+    function lock() {
+      clearAuth();
+      stopInactivityWatch();
+      hide(appRoot);
+      show(loginScreen);
+      userInput.value = "";
+      passInput.value = "";
+      errorEl.hidden = true;
+      userInput.focus();
+    }
+
+    function resetInactivityTimer() {
+      if (inactivityTimer) { window.clearTimeout(inactivityTimer); }
+      inactivityTimer = window.setTimeout(lock, INACTIVITY_MS);
+    }
+
+    var ACTIVITY_EVENTS = ["mousemove", "mousedown", "keydown", "scroll", "touchstart", "wheel"];
+
+    function startInactivityWatch() {
+      ACTIVITY_EVENTS.forEach(function (evt) {
+        document.addEventListener(evt, resetInactivityTimer, { passive: true });
+      });
+      resetInactivityTimer();
+    }
+
+    function stopInactivityWatch() {
+      if (inactivityTimer) { window.clearTimeout(inactivityTimer); inactivityTimer = null; }
+      ACTIVITY_EVENTS.forEach(function (evt) {
+        document.removeEventListener(evt, resetInactivityTimer);
+      });
+    }
+
     function unlock() {
       hide(loginScreen);
       show(appRoot);
+      startInactivityWatch();
     }
 
     var authed = false;
