@@ -12,7 +12,7 @@
   var USER = "fito";
   var PASS = "@fito#2026";
   var STORAGE_KEY = "fitofacil_authed";
-  var INACTIVITY_MS = 60000;
+  var INACTIVITY_MS = 180000;
 
   function show(el) { el.hidden = false; }
   function hide(el) { el.hidden = true; }
