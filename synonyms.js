@@ -170,8 +170,6 @@ window.__SYNONYMS__ = {
   "diabetes": ["glicemia"],
   "acucar no sangue": ["glicemia"],
   "tireoide": ["tireoide"],
-  "acelerado": ["hipertireoidismo"],
-  "lento": ["hipotireoidismo"],
   "cancer": ["cancer", "tumor", "oncologico"],
   "tumor": ["tumor", "cancer"],
   "anemia": ["anemia"],
